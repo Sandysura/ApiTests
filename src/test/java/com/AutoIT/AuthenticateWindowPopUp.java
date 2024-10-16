@@ -17,6 +17,8 @@ public class AuthenticateWindowPopUp
 		driver.get("http://admin:admin@the-internet.herokuapp.com/");
 		driver.findElement(By.linkText("Basic Auth")).click();
 		
+		System.out.println("tgis is changed code");
+		System.out.println("ssbajxbsavc");
 		
 	}
 } 

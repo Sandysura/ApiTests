@@ -55,6 +55,7 @@ public class Example2 {
         er.createTest("Test5").log(Status.FAIL, "this is the failed test").fail("this is failed",MediaEntityBuilder.createScreenCaptureFromPath(path,"homepage").build());
         Desktop.getDesktop().browse(new File("report.html").toURI());
 		er.flush();
+		System.out.println("vdsvccn c");
 		driver.quit();
 		
 

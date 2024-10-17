@@ -29,6 +29,9 @@ public class HandsOn1 {
         List<WebElement> c=driver.findElements(By.xpath("//input[@type='checkbox']"));
 		
 		System.out.println(c.size());
+		
+		System.out.println("jhvcjdhwvc");
+		System.out.println("acmdsvcjdhcvj");
 
 	}
 

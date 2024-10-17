@@ -24,7 +24,7 @@ public class Parameterisation
 	}
 	
 	
-	@DataProvider
+	@DataProvider(name="deal")
 	@Test
 	public Object[][] deal()
 	{

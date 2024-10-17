@@ -22,8 +22,8 @@ public class UniqueNumber {
 					if(a[i]==a[j]) 
 					{ 
 						k++; 
-						} 
 					} 
+				} 
 				// System.out.println(a[i]); 
 				//System.out.println(k); 
 				if(k==1)
